@@ -49,7 +49,7 @@ php artisan key:generate
 
 <br>
 
-💡Before the `Sail Installation command`, change the database connection data as you wish
+💡Before the `Sail Installation command`, change the database connection data as you wish, in the `.env` file
 
 ```dotenv
 DB_CONNECTION=mysql
