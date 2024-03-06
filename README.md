@@ -49,19 +49,7 @@ php artisan key:generate
 
 <br>
 
-Do the `require` of `Laravel Sail`, then run the installation command
-
-```shell
-composer require laravel/sail --dev
-
-# Select MySQL and any other services you want
-php artisan sail:install
-```
-
-<br>
-
-💡After the `Sail Installation command`, the mysql container access data will be written to the .env file, and you can
-change them if you want
+💡Before the `Sail Installation command`, change the database connection data as you wish
 
 ```dotenv
 DB_CONNECTION=mysql
@@ -71,6 +59,19 @@ DB_DATABASE=YOURDATABASENAME
 DB_USERNAME=sail
 DB_PASSWORD=password
 ```
+
+
+<br>
+
+Do the `require` of `Laravel Sail`, then run the installation command
+
+```shell
+composer require laravel/sail --dev
+
+# Select MySQL and any other services you want
+php artisan sail:install
+```
+
 
 <br>
 
